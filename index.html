@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+
+    <header>
+      <input type="checkbox" name="" id="menu-bar">
+      <label class="label" for="menu-bar"></label>
+      <img class="logo" src="images/logo.svg" alt="">
+
+
+      <nav class="nav">
+        <a class="nav-cont hover-black" href="#"> Collections</a>
+        <a class="nav-cont hover-black" href="#">Men</a>
+        <a class="nav-cont hover-black" href="#">Women</a>
+        <a class="nav-cont hover-black " href="#">About</a>
+        <a class="nav-cont hover-black" href="#">Contact</a>
+      </nav>
+
+      <div class="header-right">
+
+        <button class="shopping"><span value="0" class="item-count-span bold"></span> </button>
+        <div class="shopping-cart hidden">
+          <span class="bold">Card</span>
+          <div class="item">
+
+            <img class="item-pic" src="images/image-product-1.jpg" alt="">
+            <div class="right">
+
+
+              <p>
+                Fall Limited Edition Sneaker
+              </p>
+              <div class="information">
+
+
+                <p class="inline"> $125.00 x </p> <span value="0" class="item-value regular">0 </span> <span
+                  class="top-price bold"><span>&nbsp;&nbsp;$</span><span value="0" class="total-money">00.00 </span>
+                  <button class="dele">
+                    <img class="delete" src="images/icon-delete.svg" alt="">
+                  </button>
+              </div>
+            </div>
+          </div>
+          <button class="Checkout"> Checkout </button>
+          <p class="emptyCard text-center" style="display:none">Your Cart is empty.</p>
+        </div>
+
+        <div class="img"><img class="user" src="images/image-avatar.png" alt=""></div>
+
+      </div>
+
+
+
+
+    </header>
+
+  </div>
+  <div class="container">
+
+    <div class="container-left">
+      <div class="n-p-button">
+        <button class="previos ">
+          <img src="images/icon-previous.svg" alt="">
+        </button>
+        <button class="next ">
+          <img src="images/icon-next.svg" alt="">
+        </button>
+      </div>
+
+      <div class="main-product">
+        <img class="main-product-pic" src="images/image-product-1.jpg" alt="">
+      </div>
+      <div class="preview slider">
+        <div class="slider-thum thum-product-1 "><img src="images/image-product-1.jpg" alt=""
+            class="preview-pic opacity-h"></div>
+        <div class="slider-thum thum-product-2"><img src="images/image-product-2.jpg" alt=""
+            class="preview-pic opacity-h"></div>
+        <div class="slider-thum thum-product-3"><img src="images/image-product-3.jpg" alt=""
+            class="preview-pic opacity-h"></div>
+        <div class="slider-thum thum-product-4"><img src="images/image-product-4.jpg" alt=""
+            class="preview-pic opacity-h"></div>
+
+
+      </div>
+    </div>
+
+    <div class="container-right">
+      <p>SNEAKER COMPANY</p>
+      <h1>Fall Limited Edition <br>Sneaker </h1>
+      <p class="pragraf">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="price">
+        <div class="price-hight">
+          <h2>$125.00 </h2><span> 50%</span>
+        </div>
+        <small>$250.00</small>
+
+      </div>
+      <div class="add">
+        <div class="item-count">
+          <button class="sour">-</button>
+          <input id="input" value="0" type="text">
+          <button class="plus">+</button>
+        </div>
+        <div class="add-card">
+          <img src="images/icon-cart-white.svg" alt="">
+          <button class="add-card-button">
+            Add to cart
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Melike Özlen</a>.
+  </div>
+  <div class="black hidden">
+
+  </div>
+
+  <div class="light-box hidden">
+    <button class="close">
+      <img src="images/icon-close.svg" alt="">
+    </button>
+    <div class="container-left">
+      <div class="main-product">
+        <img class="main-product-pic-lb" src="images/image-product-1.jpg" alt="">
+      </div>
+      <div class="preview slider">
+        <div class="slider-thum-lb thum-product-1 selected"><img src="images/image-product-1.jpg" alt=""
+            class="preview-pic-lb "></div>
+        <div class="slider-thum-lb "><img src="images/image-product-2.jpg" alt="" class="preview-pic-lb opacity-h">
+        </div>
+        <div class="slider-thum-lb "><img src="images/image-product-3.jpg" alt="" class="preview-pic-lb opacity-h">
+        </div>
+        <div class="slider-thum-lb"><img src="images/image-product-4.jpg" alt="" class="preview-pic-lb opacity-h"></div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
