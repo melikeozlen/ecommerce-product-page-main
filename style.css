@@ -191,7 +191,9 @@ nav a {
     display: grid;
 
 }
-
+.delete:hover{
+filter: brightness(50%);
+}
 .item-value {
     font-size: 0.8rem;
 }
@@ -722,9 +724,6 @@ small {
         display: flex;
         justify-content: space-between;
         padding-inline:1em;
-    }
-    .delete:hover{
-        filter: brightness(50%);
     }
 
     .n-p-button button {
