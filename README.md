@@ -1,25 +1,27 @@
-# Frontend Mentor - E-commerce product page solution
-Tasarım Frontend Mentor'e aittir. Resimden sayfayı kodlamak tarafımca yapılmıştır.
+# Frontend Mentor - Intro section with dropdown navigation
 
--HTML
--CSS
--JAVASCRIPT 
+![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
+Sayfa tasarımı Frontend Mentor'e aittir. Resimden birebir kodlaması tarafımca yapılmıştır.
 
-- Solution URL: https://www.frontendmentor.io/solutions/css-html-Bk60TJmr5
-- Live Site URL: https://melikeozlen.github.io/intro-section-with-dropdown-navigation/
+Live Site URL: https://melikeozlen.github.io/ecommerce-product-page-main/
+
+### Dektop~
 
 Sayfanın Aktif görseli             |  Light-Box
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/44196940/165390515-313169c8-04b1-494c-8745-71fd957d2607.jpg)  |  ![](https://user-images.githubusercontent.com/44196940/165390604-2232e399-23a8-4422-8c8c-4a6c3cf8ad8f.jpg)
+![](https://user-images.githubusercontent.com/44196940/165388122-848b3f63-3d71-4016-9b02-47dbfaeceec0.jpg)  |  ![](https://user-images.githubusercontent.com/44196940/165388141-ec0eee56-9e61-413c-86e9-84b2759d3410.jpg)
 
 
  ### Mobile~
-[mobile-design](https://user-images.githubusercontent.com/44196940/165391002-5db19c19-94e6-45c4-88f3-9d5565ae015f.jpg)![mobile-menu-expanded](https://user-images.githubusercontent.com/44196940/165391015-d12a9659-612a-4da2-914e-2d67997f11e8.jpg)
+![mobile-design](https://user-images.githubusercontent.com/44196940/165388217-3bbaddb8-3500-48a6-b9f8-13650464d187.jpg)
+![mobile-design-basket-empty](https://user-images.githubusercontent.com/44196940/165389028-b7399a52-52fe-4f6c-a354-753faab1890a.jpg)![mobile-menu](https://user-images.githubusercontent.com/44196940/165389221-599f47cb-60e5-4e2a-bc84-effcbcfab771.jpg)![mobile-design-basket-filled](https://user-images.githubusercontent.com/44196940/165389306-3b90e0d3-3645-4326-a4e2-ad9b25ef86a0.jpg)
 
 
-
+### Built with!
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid / Order
+- CSS Grid
 - Responsive
+- Slider
+
