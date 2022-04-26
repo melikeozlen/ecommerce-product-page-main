@@ -1,5 +1,5 @@
 # Frontend Mentor - Intro section with dropdown navigation
-Sayfa tasarımı Frontend Mentor'e aittir. Resimden birebir kodlaması tarafımca yapılmıştır.
+E-ticaret sitesi ürün sayfası. Sayfa tasarımı Frontend Mentor'e aittir. Resimden birebir kodlaması tarafımca yapılmıştır.
 
 Live Site URL: https://melikeozlen.github.io/ecommerce-product-page-main/
 
